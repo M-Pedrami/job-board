@@ -1,6 +1,10 @@
+import { FaRegHeart } from "react-icons/fa6";
+
+
 const JobRow = () => {
   return (
-    <div className="flex gap-4  bg-white p-4 rounded-md shadow-sm">
+    <div className="flex gap-4  bg-white p-4 rounded-md shadow-sm relative">
+      <button> <FaRegHeart className="absolute right-2 top-2"/></button>
       <div className="content-center">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg"
